@@ -30,7 +30,7 @@
     F. 0 This output is 0 because false has a value of 0 and null acts as a 0 as well so 0+0=0.   
     G. '3undefined' The output is '3undefined' since 3 is a string, undefined will also map to its string representation. Therefore this expression will act as string concatenation.  
     H. NaN This output is NaN(Not-a-Number) because since you cannot subtract strings, undefined cannot act as a string there. Therefore the ouput will be not a number.  
-14) A. true This output is true because '2' becomes the actual number 2 due to type conversion and since 2 > 1 is true, the output is true.
+14) A. true This output is true because '2' becomes the actual number 2 due to type conversion and since 2 > 1 is true, the output is true.  
     B. false This is false since both numbers are strings, the first characters in each string are compared. If they are different, the string with the smallest first character is the lesser value. In this case we start off by comparing 2 and 1. We know 1 is less than 2 so '12' is actually less than '2' which makes the expression false.     
     C. true This is true because the string '2' becomes 2. Therefore 2 == 2 is true.  
     D. false This is false because the === means strict equality. This means there will not be a type conversion so the int 2 does not equal '2'.   
